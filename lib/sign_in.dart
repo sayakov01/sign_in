@@ -51,9 +51,9 @@ _getButtomRow(context) {
             border: Border.all(width: 2, color: Colors.black12),
             color: Colors.grey[300],
           ),
-          child:  TextField(
+          child:  const TextField(
             cursorColor: Colors.black,
-            decoration: const InputDecoration(
+            decoration: InputDecoration(
               border: InputBorder.none,
               hintText: 'Email',
             ),
